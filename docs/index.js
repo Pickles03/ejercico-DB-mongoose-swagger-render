@@ -1,4 +1,6 @@
-const basicInfo = require('/basicInfo');
-moddule.exports = {
-    ...basicInfo
+const basicInfo = require('./basicInfo');
+module.exports = {
+    ...basicInfo,
+    ...components,
+    ...tasks
 };
